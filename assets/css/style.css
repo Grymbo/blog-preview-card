@@ -52,3 +52,11 @@ body {
     border-radius: 1rem;
     margin: 2.5rem;
 }
+@media (min-width: 768px){
+    .card img {
+        width: 34rem;
+        height: 20rem;
+        border-radius: 1rem;
+        margin: 2rem;
+    }
+}
