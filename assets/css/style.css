@@ -1,12 +1,41 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box;/*****hack para arreglar box*****/
+    height: 100%;
 }
 body {
     font-size: 16px; /***** 10px = 1rem****/
     font-family: "Figtree", sans-serif;
-    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
+    background-color: #F4D04E;
+
+    margin: 0;
+    padding: 0;
+    height: 100%; /***** asegura que el body ocupa el 100% de la altura *****/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 *, *:before, *:after {
     box-sizing: inherit;
+}
+
+/*------------------Card ---------------------------*/
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    width: 33rem;
+    height: 50rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 28rem;
+    height: 20rem;
+    border-radius: 1rem;
+    margin: 2.5rem;
 }
