@@ -77,14 +77,29 @@ body {
 
 /*----------------------- Titulos ----------------------------------*/
 .learning h3 {
-    font-weight: 900;
-    padding: 0.8rem;
+    font-weight: 800;
+    padding: 4px 12px;
     background-color: #F4D04E;
     display: inline;
     border-radius: 0.4rem;
+    font-size: 12px;
+    line-height: 18px;
 }
 .published {
-    font-weight: 400;
+    font-weight: 500;
     color: #111111;
-    line-height: 150%;
+    line-height: 18px;
+    font-size: 12px;
+}
+.title_html {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    color: #111111;
+}
+.parrafo_descripcion {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #7F7F7F;
 }
