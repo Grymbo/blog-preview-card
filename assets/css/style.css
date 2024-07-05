@@ -14,10 +14,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 *, *:before, *:after {
     box-sizing: inherit;
+}
+.contenedor {
+    width: 28rem;
+    /*height: 17rem;*/
+    margin: 0  2.5rem 2.5rem 2.5rem ;
+}
+@media (min-width: 768px){
+    .contenedor {
+        width: 34rem;
+        /*height: 19rem;*/
+    }
 }
 
 /*------------------Card ---------------------------*/
@@ -28,7 +38,11 @@ body {
 }
 .card {
     width: 33rem;
-    height: 50rem;
+    margin: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*height: 50rem;*/
     background-color: white;
     border-radius: 2rem;
     -webkit-box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75);
@@ -38,7 +52,7 @@ body {
 @media (min-width: 768px){
     .card {
         width: 38rem;
-        height: 52rem;
+        /*height: 52rem;*/
         background-color: white;
         border-radius: 2rem;
         -webkit-box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75);
@@ -59,4 +73,18 @@ body {
         border-radius: 1rem;
         margin: 2rem;
     }
+}
+
+/*----------------------- Titulos ----------------------------------*/
+.learning h3 {
+    font-weight: 900;
+    padding: 0.8rem;
+    background-color: #F4D04E;
+    display: inline;
+    border-radius: 0.4rem;
+}
+.published {
+    font-weight: 400;
+    color: #111111;
+    line-height: 150%;
 }
