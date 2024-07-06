@@ -52,6 +52,26 @@ body {
 @media (min-width: 768px){
     .card {
         width: 38rem;
+        margin: 15rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*height: 50rem;*/
+        background-color: white;
+        border-radius: 2rem;
+        -webkit-box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.75);
+    }
+    .card:hover {
+        -webkit-box-shadow: 16px 16px 20px 0px rgba(0,0,0,0.89);
+        -moz-box-shadow: 16px 16px 20px 0px rgba(0,0,0,0.89);
+        box-shadow: 16px 16px 20px 0px rgba(0,0,0,0.89);
+    }
+}
+@media (min-width: 768px){
+    .card {
+        width: 38rem;
         /*height: 52rem;*/
         background-color: white;
         border-radius: 2rem;
@@ -118,6 +138,10 @@ body {
     .title_html {
         font-size: 24px;
         line-height: 36px;
+    }
+    .title_html:hover {
+        color: #F4D04E;
+        cursor: pointer;
     }
 }
 .parrafo_descripcion {
